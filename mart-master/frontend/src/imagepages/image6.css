@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+html{
+font-size: 62.5%;
+}
+body{
+    font: 1.6rem H elvetica,arial;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: #f08040;
+}
+/*.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'nav'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1rem 1fr 5rem;
+    height: 100%;
+}*/
+header{
+    height: 8vh;
+    grid-area: header;
+    background-color: #203040;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem;
+}
+header a{
+    color:#ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2rem; 
+}
+header a:hover{
+   color:#f08040;
+}
+.brand a{
+    font-size: 2.6rem;
+    width: 14vw;
+}
+footer{
+    height: 7vh;
+    background-color: #203040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+nav{
+    height: 5vh;
+}
+main{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.mainaddress{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0px 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+.hello{
+    font-size: 13px;
+}
+.selectaddress{
+    font-size: 15px;
+}
+.searchbox input{
+    font-family: "roboto",sans-serif;
+    outline: 0.1;
+    background: #f2f2f2 ;
+    width: 205%;
+    border: 2px;
+    margin: 4px 0 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 12px;
+} 
+.locImage{
+    width: 1%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar{
+    background-color: #152468;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    height: 3rem;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#f08040;
+ }
+ .btnsearch{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:#ff9900;
+    width: 4%;
+    border: 0;
+    margin: 6.5px 0px 6.5px;
+    padding: 7px 4px;
+    color: #ffffff;
+    font-size: 11px;
+    cursor: pointer;
+    align-content: center;
+    float: left;
+ }
+ .signin a{
+     margin: 4px;
+ }
+ .image{
+     margin-top: 3rem;
+     margin-bottom: 2rem;
+     margin-left: 1.5rem;
+     margin-right: 1.5rem;
+ }
+ .image img{
+     display: flex;
+     justify-content: left;
+     width: 45vw;
+     height: 73vh;
+ }
+ h1{
+     font-size: 4.8rem;
+     margin-bottom: 0;
+ }
+ .information button{
+     background-color: #203040;
+     color: #ff9900;
+     outline: oldlace;
+ }
+ .mrp{
+     margin-top: 3rem;
+     font-family: "Roboto",sans-serif;
+     font-size: 20  px;
+ }
+ .bankoffer{
+     margin-top: 2.5rem ;
+     font-style: bold;
+     text-shadow: wheat;
+ }
+ .addtocart{
+     margin-top: 4rem;
+ }
+ .addtocart button{
+     width: 28rem;
+     height: 3rem;
+     background-color: #ff9900;
+     color: #203040;
+ }
